@@ -2,9 +2,10 @@
 
 /* Bakgrundsfärg och font */
 body {
-    background-color: rgb(219, 255, 219);
+    background-color: rgb(252, 252, 252);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 14px;
+    margin: 0;
 }
 
 /* Loggans storlek och placering */
@@ -15,7 +16,7 @@ body {
     height:auto;
     display: flex;
     justify-content: flex-start;
-    margin-bottom:10px;
+    margin: 10px;
 }
 
 .header {
@@ -56,11 +57,31 @@ nav ul li a {
     margin: 0;
     padding: 0;
 }
-.intro {
-    font-size: 1.3rem;
+.hero-text {
     text-align: center;
-    
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
+.hero-text h2 {
+    font-size: 1.5rem;
+}
+.hero-text p {
+    font-size: 1.1rem;
+}
+.hero-text a {
+    color: black;
+    text-decoration: none;
+    background-color: #B2D6A6 ;
+    border: black solid 1px;
+    padding: 8px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.hero-text a:hover {
+    background-color: #e3f3de;
+}
+
 .grid-intro {
     padding: 10px;
     text-align: center;
@@ -70,14 +91,12 @@ nav ul li a {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: rgb(109, 198, 136);
+    background-color: #BAE1AD;
     padding-top: 30px;
-    
-
 }
 
 .container h3 {
-    background-color: rgb(196, 226, 189);
+    background-color: white;
     font-size: 1.2rem;
     color: black;
     text-align: center;
@@ -86,7 +105,7 @@ nav ul li a {
     padding-top: 20px;
 }
 .container p {
-    background-color: rgb(196, 226, 189);
+    background-color:white;
     font-size: 1rem;
     color: black;
     text-align: center;
@@ -101,7 +120,7 @@ nav ul li a {
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
-    background-color: rgb(196, 226, 189);
+    background-color: white;
     
 }
 .länk {
