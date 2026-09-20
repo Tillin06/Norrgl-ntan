@@ -92,6 +92,10 @@ body {
 .näratillnaturen {
     display: grid;
     margin-top: 25px;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 .upplevnorr {
     background-color: #BAE1AD;
@@ -239,6 +243,27 @@ footer {
     .rubrik {
         font-size: 24px; 
     }
+    .herobild {
+        position: absolute;
+        max-width: 100%;
+    }
+    .hero-text {
+        position: relative;
+        right: 30%;
+        padding-top: 10.4%;
+        padding-bottom: 20%;
+        padding-left: 5%;
+        background-color: #bae1ad70;
+        width: 50%;
+    }
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+    .hero-text p {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
     .intro {
         font-size: 24px;
     }
