@@ -250,18 +250,29 @@ footer {
     .hero-text {
         position: relative;
         right: 30%;
-        padding-top: 10.4%;
+        padding-top: 9.5%;
         padding-bottom: 20%;
-        padding-left: 5%;
         background-color: #bae1ad70;
         width: 50%;
+        
     }
     .hero-text h2 {
-        font-size: 2rem;
+        font-size: 2vw;
     }
     .hero-text p {
-        font-size: 1.5rem;
+        font-size: 1.2vw;
         margin-bottom: 50px;
+    }
+    .näratillnaturen {
+        max-width: 60%;
+    }
+    .näratillnaturen p {
+        font-size: 1.3rem;
+        margin-bottom: 5%;
+    }
+    .näratillnaturen h3 {
+        font-size: 1.5rem;
+        margin-top: 5%;
     }
 
     .intro {
@@ -270,5 +281,26 @@ footer {
     .container {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .planera {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+    }
 
+    .planera-titel {
+        text-align: left;
+        display: block;
+        width: 100%;
+        padding-top: 3%;
+    }
+    .planera p {
+        grid-column: 1;
+        text-align: left;
+        max-width: 70%;
+    }
+    .planera a {
+        padding: 20px;
+        border-radius: 7px;
+    }
+  
 }
